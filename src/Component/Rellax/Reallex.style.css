@@ -1,0 +1,36 @@
+.reallex {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+}
+.left-side {
+  width: 60%;
+  padding-top: 30vh;
+}
+.left-side p {
+  color: #dddddd;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: blueviolet;
+  border-radius: 5px;
+}
+.right-side {
+  width: 40%;
+  padding-right: 100px !important;
+}
+
+.red-section {
+  background-color: tomato;
+  min-height: 100vh;
+}
+
+.red-section > h1 {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 175vh;
+}
